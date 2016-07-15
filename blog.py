@@ -9,6 +9,11 @@ import sqlite3
 # configuration
 
 DATABASE = 'blog.db'
+USERNAME = 'admin'
+PASSWORD = 'admin'
+SECRET_KEY = '\xf3\x86\xd9q\xac\x12\xef\x00z\xab\xe6\xb1\x0e\x99\x81\xdaX\xadE\xe1\x8f\x86\x80\xa8'
+
+
 
 app = Flask(__name__)
 
